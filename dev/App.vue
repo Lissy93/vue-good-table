@@ -1,5 +1,23 @@
 <template>
   <div>
+
+    <h3>Material Light Theme</h3>
+
+    <vue-good-table
+      ref="my-material-table"
+      :columns="columns"
+      :rows="rows"
+      theme="material-light"
+      :fixed-header="true"
+      max-height="500px"
+      :line-numbers="true"
+      :select-options="{
+        enabled: true,
+        selectOnCheckboxOnly: false,
+      }" />
+
+      <br><br>
+
     <button @click="rows = [];">empty row</button>
     <button @click="resetTable">reset Table</button>
     <button @click="hideColumn">hide column</button>

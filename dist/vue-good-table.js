@@ -10896,7 +10896,8 @@
         class: {
           'rtl': _vm.rtl,
           'nocturnal': _vm.theme === 'nocturnal',
-          'black-rhino': _vm.theme === 'black-rhino'
+          'black-rhino': _vm.theme === 'black-rhino',
+          'material-light': _vm.theme === 'material-light'
         }
       }, [_vm.isTableLoading ? _c('div', {
         staticClass: "vgt-loading vgt-center-align"

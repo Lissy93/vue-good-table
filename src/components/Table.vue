@@ -3,6 +3,7 @@
     'rtl': rtl,
     'nocturnal': theme==='nocturnal',
     'black-rhino': theme==='black-rhino',
+    'material-light': theme==='material-light',
   }">
     <div v-if="isTableLoading" class="vgt-loading vgt-center-align">
       <slot name="loadingContent">
