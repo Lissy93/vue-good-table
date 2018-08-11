@@ -5572,7 +5572,7 @@
       }), _vm._v(" " + _vm._s(_vm.pageInfo) + " ")]);
     },
     staticRenderFns: [],
-    _scopeId: 'data-v-731a4dda',
+    _scopeId: 'data-v-3ace17fa',
     name: 'VgtPaginationPageInfo',
     props: {
       currentPerPage: {
@@ -6049,7 +6049,7 @@
       })], 2) : _vm._e();
     },
     staticRenderFns: [],
-    _scopeId: 'data-v-2949d74f',
+    _scopeId: 'data-v-a837ada2',
     name: 'VgtFilterRow',
     props: ['lineNumbers', 'columns', 'typedColumns', 'globalSearchEnabled', 'selectable', 'mode'],
     watch: {
@@ -6204,7 +6204,7 @@
       })]);
     },
     staticRenderFns: [],
-    _scopeId: 'data-v-0c8b4370',
+    _scopeId: 'data-v-3f07b828',
     name: 'VgtTableHeader',
     props: {
       lineNumbers: {
